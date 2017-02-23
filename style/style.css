@@ -1,0 +1,33 @@
+.center {
+	text-align: center;
+}
+
+.tableCell {
+	font-size: 2em;
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+
+table.center {
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.choices {
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+}
+
+.choicesView {
+	width: 100%;
+	height: 100px;
+}
+
+.wordView {
+	width: 100%;
+	height: 200px;
+}

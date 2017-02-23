@@ -21,6 +21,10 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    proxy: {
+      "/words": "http://linkedin-reach.hagbpyjegb.us-west-2.elasticbeanstalk.com"
+    } 
   }
+  
 };

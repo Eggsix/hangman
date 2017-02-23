@@ -1,9 +1,20 @@
-import React, { Component } from 'react';
-
+import React, { Component } from 'react'
+import axios from 'axios'
 export default class App extends Component {
-  render() {
-    return (
-      <div>React simple starter</div>
-    );
-  }
+	constructor(props) {
+		super(props)
+
+		this.state = {
+			secret: '',
+			data: []
+		}
+	}
+
+	render() {
+		return (
+			<div>
+				{this.props.children}
+			</div>
+		)	
+	}
 }
