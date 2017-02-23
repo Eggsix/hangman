@@ -1,8 +1,9 @@
 Hangman - LinkedIn Reach
+	> git clone https://github.com/Eggsix/hangman.git
 	> npm install
 	> npm start
 
-The start menu will display at home page
+The start menu will display at home page on localhost:8080
 
 You must select a difficulty to proceed to the game view
 - easy (1 - 3)
