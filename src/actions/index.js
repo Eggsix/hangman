@@ -5,7 +5,7 @@ import { SET_WORD,
 		DEINCREMENT_LIVES } from './types'
 
 export function gameOptions(gameOptions) {
-	let difficulty = gameOptions.difficulty || 0
+	let difficulty = gameOptions.difficulty || 1
 	let minLength = gameOptions.minLength || 2
 	let maxLength = gameOptions.maxLength || 4
 	let start = gameOptions.start || 0
